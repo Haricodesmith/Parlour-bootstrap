@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.font-weight{
+ font-weight: 500;
+}
+body{
+    background: linear-gradient(106.5deg, rgba(255, 215, 185, 0.91) 23%, rgba(223, 159, 247, 0.8) 93%);
+}
+
+.navbar-brand {
+    font-family: "Great Vibes", cursive;
+    font-weight: 900;
+    font-style: normal;
+}
+.n-b {
+    font-family: "Great Vibes", cursive;
+    font-weight: 900;
+    font-style: normal;
+    color: rgb(252, 16, 75);
+   
+}
+.button{
+    background-color: rgb(252, 16, 75);
+    color: white;
+    outline: rgb(252, 16, 75) 2px solid;
+    font-weight: 500;
+    border-style: none;
+    border-radius: 5px;
+}
+.button:hover{
+    background-color: rgb(95, 95, 95);
+    color: white;
+    outline: rgb(95, 95, 95) 2px solid;
+}
+.img-con img{
+   height: 500px;
+   width: 500px;
+   object-fit: cover;
+   border-radius: 130px 30px 130px 30px;
+} 
+.img-h1{
+   font-family: "Great Vibes", cursive;
+   font-weight: 900;
+   font-style: normal;
+   color: rgb(252, 16, 75);
+   word-spacing: 15px;
+}
+.ba{
+    font-family: "Great Vibes", cursive;
+    font-weight: 900;
+    font-style: normal;
+    color: rgb(252, 16, 75);
+}
+.ba-detail{
+    font-family: "Great Vibes", cursive;
+    font-weight: 900;
+    font-style: normal;
+    color: rgb(252, 16, 75);
+}
+
+.scroll{
+    overflow: scroll;
+}
+.butn{
+    background-color: rgb(252, 16, 75);
+    color: white;
+    outline: rgb(252, 16, 75) 2px solid;
+    font-weight: 500;
+    border-style: none;
+    border-radius: 20px;
+}
+.butn:hover{
+    background-color: rgb(95, 95, 95);
+    color: white;
+    outline: rgb(95, 95, 95) 2px solid;
+}
+.pack-1{
+    font-family: "Great Vibes", cursive;
+    font-weight: 900;
+    font-style: normal;
+    color: rgb(252, 16, 75);
+}
+.bg-grdient{
+    background: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+}
+.bg{
+    background: linear-gradient(106.5deg, rgba(255, 215, 185, 0.91) 23%, rgba(223, 159, 247, 0.8) 93%);
+}
+.card{
+    background: radial-gradient(circle at 10% 20%, rgb(246, 187, 187) 0%, rgb(249, 219, 217) 90%);
+}
+.inie{
+    outline: none;
+    border-style: none;
+}
+.bj{
+    background-color: rgb(186, 144, 92);
+    border-style: none;
+}
+.scroll-arrow {
+    z-index: 2;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 1.5rem;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.scroll-container {
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    padding: 1rem 0;
+    gap: 1rem; /* Space between cards */
+    scrollbar-width: none; /* Hide scrollbar for Firefox */
+}
+
+.scroll-container::-webkit-scrollbar {
+    display: none; /* Hide scrollbar for Chrome, Safari, and Opera */
+}
+
+.card {
+    flex: 0 0 auto; /* Prevents cards from shrinking */
+    max-width: 250px; /* Limit card width */
+    border-radius: 0.5rem; /* Rounded corners */
+}
+
+.scroll-arrow.left-arrow {
+    left: 0;
+}
+
+.scroll-arrow.right-arrow {
+    right: 0;
+}
+
+@media (max-width: 768px) {
+    .scroll-arrow {
+        font-size: 1.2rem;
+    }
+    
+    .card {
+        max-width: 200px; /* Smaller card width for smaller screens */
+    }
+}
